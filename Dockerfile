@@ -1,7 +1,8 @@
-FROM node:v16.6.1
+FROM node:16.6.1-alpine
 
 WORKDIR /app
-COPY package* .
+COPY package.json package-lock.json ./
 RUN npm install
+COPY index.js .
 
 CMD npm start
