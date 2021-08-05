@@ -1,0 +1,19 @@
+{
+  "name": "lifx-mqtt",
+  "version": "1.0.0",
+  "description": "Connects lifx bulbs on the same network to an MQTT service automatically.",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "keywords": ["lifx", "mqtt"],
+  "author": {
+    "name": "Chris Nesbitt-Smith",
+    "email": "chris@cns.me.uk"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "mqtt": "^1.13.0",
+    "node-lifx": "^0.6.0"
+  }
+}
